@@ -75,7 +75,7 @@ function App() {
             </button>
           </div>
           <SyntaxHighlighter className="content" language="json" style={style}>
-            {jsonContent}
+            {jsonContent.substring(0, 5000)}
           </SyntaxHighlighter>
         </div>
       </div>
