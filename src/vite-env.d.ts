@@ -30,7 +30,6 @@ export interface ItemCode {
   name: string;
   value: number;
   hex: string;
-  category: string[] | null;
 }
 
 export type ItemCodeList = ItemCode[];
